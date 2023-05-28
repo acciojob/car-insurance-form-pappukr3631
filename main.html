@@ -14,14 +14,14 @@
             <input type="radio" name="gender" value="male" required><label>Male</label>
             <input type="radio" name="gender" value="female" required><label>Female</label><br>
         <label for="cars">Car Brands</label>
-        <select>
-            <option>BMW</option>
-            <option>Audi</option>
-            <option>Mercedez</option>
+        <select name=cars>
+            <option value="bmw">BMW</option>
+            <option value="audi">Audi</option>
+            <option value="mercedez">Mercedez</option>
         </select><br>
-        <label for="carage">Car Age*</label><input type="number" required><br>
-        <label for="dop">Date of Purchase*</label><input type="date" required><br>
-        <label for="password">Password*</label><input type="password" required><br>
+        <label for="carage">Car Age*</label><input type="number" name="carage" required><br>
+        <label for="dop">Date of Purchase*</label><input type="date" name="dop" required><br>
+        <label for="password">Password*</label><input type="password" name="password" required><br>
         <input type="submit">
     </form>
 	<!-- the entire body must be written by student -->
